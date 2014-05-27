@@ -91,7 +91,7 @@ angular.module('angular-table', [])
                     }
 
                     if(clickHandlerFunctionName !== 'undefined') {
-                        $scope.$parent[clickHandlerFunctionName](row);
+                        $scope[clickHandlerFunctionName](row);
                     }
                 };
 
